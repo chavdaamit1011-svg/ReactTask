@@ -1,0 +1,58 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "roomNumber": "101",
+      "type": "Single",
+      "price": 1500,
+      "features": [
+        "AC",
+        "WiFi"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "roomNumber": "102",
+      "type": "Double",
+      "price": 2500,
+      "features": [
+        "AC",
+        "WiFi",
+        "TV"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "roomNumber": "201",
+      "type": "Deluxe",
+      "price": 4000,
+      "features": [
+        "AC",
+        "WiFi",
+        "TV",
+        "Balcony"
+      ],
+      "available": false
+    }
+  ],
+  "reservations": [
+    {
+      "id": "2",
+      "roomId": 1,
+      "guestName": "fhdsgbjhab",
+      "checkIn": "2002-02-02",
+      "checkOut": "2003-03-03",
+      "status": "confirmed"
+    },
+    {
+      "id": "09e9",
+      "roomId": 2,
+      "guestName": "amittttbjhmbmn",
+      "checkIn": "2026-01-06",
+      "checkOut": "2026-01-07",
+      "status": "confirmed"
+    }
+  ]
+}
